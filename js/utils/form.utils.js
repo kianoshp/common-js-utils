@@ -36,6 +36,7 @@ Utils.Form = {
 	* @description Utility method that will get all the elements that
 	* have the ability to add placeholder attribute (and be visible).
 	*
+	* @return array of elements that match the input type
 	*/
 	getAllPlaceholderEls: function() {
 		var inputTypes = ['text', 'tel', 'email', 'url', 'search'],
